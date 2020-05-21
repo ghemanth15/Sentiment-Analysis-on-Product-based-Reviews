@@ -14,6 +14,11 @@ You will notice in reviews.py that we used a file called ``` selectors.yml ```. 
 ### About sentiment.py
 This python file is used to extract data from ``` data.csv ``` file and calculate their polarities.
 
+### Polarities
+Polarity, also known as orientation is the emotion expressed in the sentence. It can be positive, neagtive or neutral.Polarity in sentiment analysis refers to identifying sentiment. If polarity is positive, then it is a positive review , if the polairty is negative 
+then it is a negative review and if polarity is zero then it is neutral. Polarity ranges from -1 to 1 where -1 represents 
+negative comment's maximum polarity and +1 represents positive comment's maximum polarity.
+
 ### How to run this project
 1. Initially download the following packages: <br/>
 ``` pip install textblob ``` <br/>

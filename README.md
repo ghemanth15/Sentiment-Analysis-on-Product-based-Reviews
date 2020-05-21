@@ -24,4 +24,6 @@ negative comment's maximum polarity and +1 represents positive comment's maximum
 ``` pip install textblob ``` <br/>
 ``` pip install selectorlib ``` <br/>
 2. Run the reviews.py file. It extracts all the customer reviews on a product into a csv file ('data.csv'). <br/>
-3. Run the sentiment.py file. It prints all the reviews on that product and their polarities.
+``` python reviews.py ``` <br/>
+3. Run the sentiment.py file. It prints all the reviews on that product and their polarities.<br/>
+``` python sentiment.py ```

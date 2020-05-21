@@ -3,7 +3,7 @@
 ``` urls.txt ``` file has a default customer review on a product from amazon.com website which can be modified/changed by removing the already existing link to a new link.
 
 ### About selector.yml
-You will notice in the code above that we used a file called ``` selectors.yml ``` Selectorlib(from reviews.py) is a tool that makes selecting, marking up, and extracting data from web pages visual and easy. The Selectorlib Web Scraper Chrome Extension lets you mark data that you need to extract, and creates the CSS Selectors or XPaths needed to extract that data 
+You will notice in reviews.py that we used a file called ``` selectors.yml ```. Selectorlib(from reviews.py) is a tool that makes selecting, marking up, and extracting data from web pages visual and easy. The Selectorlib Web Scraper Chrome Extension lets you mark data that you need to extract, and creates the CSS Selectors or XPaths needed to extract that data 
 
 ### About reviews.py
 1.Reads a list of Product Review Pages URLs from a file called urls.txt (This file will contain the URLs for the Amazon product) <br/>

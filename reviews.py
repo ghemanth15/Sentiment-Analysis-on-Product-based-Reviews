@@ -1,7 +1,6 @@
 from selectorlib import Extractor
 import requests 
 import json 
-from time import sleep
 import csv
 from dateutil import parser as dateparser
 
@@ -32,8 +31,7 @@ def scrape(url):
             print("Page %s was blocked by Amazon. Please try using better proxies\n"%url)
         else:
             print("Page %s must have been blocked by Amazon as the status code was %d"%(url,r.status_code))
-        return None
-    # Pass the HTML of the page and create 
+        return None 
     return e.extract(r.text)
 
 with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
